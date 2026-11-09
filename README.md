@@ -1,19 +1,16 @@
-# Luke's NFC Contact Card
+# Next Step to Serve — NFC Contact Card
 
-A mobile-friendly contact landing page with a downloadable vCard, designed for GitHub Pages.
+A mobile-friendly contact page matching the **Next Step to Serve** liaison handout, with its original wordmark and six-step Serving Journey. The page includes Luke Simmons's contact information and a downloadable vCard.
 
-## Publish
+## Update your existing GitHub Pages site
 
-1. Upload `index.html` and `luke-simmons.vcf` to the root of `BrokenJimmy/PublicContactInfo` on the `main` branch.
-2. In repository **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/(root)**, and **Save**.
-3. Once deployment finishes, visit https://brokenjimmy.github.io/PublicContactInfo/ .
-4. Program the NFC tag with a **URL/URI** record pointing to that same URL (not the GitHub repository URL).
-5. Test on iPhone and Android. The visitor must confirm importing/saving the contact. Browsers may download the VCF first; opening it should present the contact import flow.
+1. In [BrokenJimmy/PublicContactInfo](https://github.com/BrokenJimmy/PublicContactInfo), choose **Add file → Upload files**.
+2. Upload **index.html**, **next-step-to-serve.png**, and **luke-simmons.vcf** from this folder to the repository root. Confirm replacement of `index.html` if prompted, then **Commit changes**.
+3. Your existing GitHub Pages configuration (`main`, `/(root)`) and NFC URL remain unchanged: https://brokenjimmy.github.io/PublicContactInfo/
+4. After deployment, refresh the page and test **Save to Contacts** on iPhone and Android.
 
-## Update
+## Maintenance
 
-Edit `index.html` and `luke-simmons.vcf` together when contact details change. The NFC URL stays the same.
+Update `index.html` and `luke-simmons.vcf` together when contact details change. Keep `next-step-to-serve.png` in the same directory as `index.html`. GitHub Pages is public: only publish contact details intended for public sharing.
 
-## Privacy
-
-The email address and phone number are public and can be indexed or collected by bots.
+The Serving Journey and check-in weeks reproduce the supplied NS2S Class Handout.
