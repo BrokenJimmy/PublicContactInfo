@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Simmons;Luke;;;
+FN:Luke Simmons
+ORG:Sagemont Church
+TITLE:TouchPoint Specialist
+EMAIL;TYPE=WORK,INTERNET:luke.simmons@sagemontchurch.org
+TEL;TYPE=WORK,VOICE:+14099963380
+URL:https://www.sagemontchurch.org
+END:VCARD
